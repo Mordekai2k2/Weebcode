@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+    <link rel="stylesheet" type="text/css" href="BurtonCss.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+
+
+    <style>
+        body{
+            font-family: 'Major Mono Display', monospace;
+            font-size: 11px;
+        }
+    </style>
+
+</head>
+<body>
+
+<form method="post" action="https://www.savatarian.com/html5/form.php">
+    <H1>formulier</h1>
+    <div class="secone">
+        <ul class="listone">
+            </li>
+
+            <li>
+                <div class="input">
+                    <label for="voornaam">voornaam:</label>
+                    <input type="text" name="voornaam" required />
+                </div>
+            </li>
+            <li>
+                <div class="input">
+                    <label for="achternaam">voornaam:</label>
+                    <input type="text" name="achternaam" required />
+                </div>
+            </li>
+            <li>
+                <div class="input2">
+                    <label for="geslacht">geslacht</label>
+                    <div class="man"><input name="geslacht" type="radio" value="man">&nbsp;man</div>
+                    <div class="vrouw"><input name="geslacht" type="radio" value="vrouw">&nbsp;vrouw</div>
+                    </divclass>
+            </li>
+            <li>
+                <div class="input">
+                    <label for="oogkleur">kleur ogen</label>
+                    <select name="oogkleur">
+                        <option>groen</option>
+                        <option>blauw</option>
+                        <option>bruin</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="input">
+                    <label for="birthday">gebortedatum:</label>
+                    <input type="date" name="birthday" required />
+                </div>
+            </li>
+            <li>
+                <div class="input">
+                    <label for="beschrijving">omschrijving:</label>
+                    <textarea name="beschrijving"/></textarea>
+                </div>
+            </li>
+
+
+        </ul>
+    </div><!--section one-->
+    <div class="sectwo">
+
+        <ul>
+            <li>
+                <label for="lekkereten" class="label">lekker eten:</label><br>
+                <div class="inut2"><input type="checkbox" name="lekkereten" value="sperciebonen" />&nbsp;sperciebonen</div>
+            </li>
+            <li>
+                <div class="inut2"><input type="checkbox" name="lekkereten" value="aardappelen" />&nbsp;aardappelen</div>
+            </li>
+            <li>
+                <div class="inut2"><input type="checkbox" name="lekkereten" value="hamburger" />&nbsp;hamburger</div>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <br><br><br><br><br><br>
+    <div class="buttons">
+        <input type="submit" name="knop">
+        <input type="reset">
+    </div>
+
+
+
+</form>
+
+
+
+
+</body>
+</html>

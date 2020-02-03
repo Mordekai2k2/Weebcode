@@ -10,8 +10,8 @@ public class Negatief extends Applet {
     int Negatief;
 
     public void init() {
-        Positief1 = 1;
-        Positief2 = 1;
+        Positief1 = 19;
+        Positief2 = 973;
         Negatief -= Positief1 + Positief2;
     }
 

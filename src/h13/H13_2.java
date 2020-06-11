@@ -15,14 +15,14 @@ public class H13_2 extends Applet {
     }
 
     void drawWall(Graphics g, int x, int y, int ww, int hw) {//ww = width wall, hw = height wall
-        //het cement (grijze achtergrond
+        //Cement
         g.setColor(new Color(100, 100, 100));
         g.fillRect(x, y, ww, hw);
-        //de stenen
+        //Stenen
         g.setColor(new Color(150, 50, 50));
-        //hoeveel rijen aan stenen
+        //Rijen Stenen
         for (int a = 0; a <= ((hw - 3) / 18) - 1; a++) {
-            //hoeveel stenen per rij, de if else is voor her effect dat ze niet allemaal op dezelfde plek staan(qua x as)
+            //Stenen per rij
             if (a % 2 == 0) {
                 for (int i = 0; i <= ((ww - 3) / 33) - 1; i++) {
                     g.fillRect((x + 3) + 33 * i, (y + 3) + 18 * a, 30, 15);
